@@ -6,7 +6,7 @@ Before you install, make sure you have python3 and virtualenv. After those depen
 
 # RUNNING
 Run either of these commands:  
-find-dead-links `<url>`  
-find-dead-links `-<search depth> <url>`  
+`find-dead-links <url>`  
+`find-dead-links -<search depth> <url>`  
 Specifying a search depth will recursively search the input url and its children urls until. Not specifying a search depth will search just the input url.
 
