@@ -7,7 +7,6 @@ FDL_ENV = ${INSTALL_DIR}/fdl-env
 install: ${FDL_ENV} ${FDL_TARGET} ${RUN_TARGET}
 
 ${FDL_ENV}:
-#	cd ${INSTALL_DIR} && virtualenv -p python3 ${FDL_ENV}
 	virtualenv -p python3 ${FDL_ENV}
 	source ${FDL_ENV}/bin/activate && pip install requests && pip install beautifulsoup4
 
